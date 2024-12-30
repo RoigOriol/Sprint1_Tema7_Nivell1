@@ -31,7 +31,7 @@ class NumberCheckerTest extends TestCase
     }
 
     public function testIsPositiveWithZero()
-    {
+    { 
         $numberChecker = new NumberChecker(0);
         $this->assertFalse($numberChecker->isPositive(), "0 no és positiu.");
     }

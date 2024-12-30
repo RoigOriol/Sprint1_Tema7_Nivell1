@@ -29,5 +29,5 @@ class VerificarNotaTest extends TestCase
         $this->assertEquals("Reprovat", verificarNota(30), "La nota 30 hauria de ser Reprovat.");
         $this->assertEquals("Reprovat", verificarNota(0), "La nota 0 hauria de ser Reprovat.");
     }
-}
+} 
 ?>
